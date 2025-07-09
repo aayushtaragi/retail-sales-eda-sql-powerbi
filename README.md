@@ -1,34 +1,35 @@
-# 🛍️ Retail Sales EDA Using SQL
+# 🛍️ Retail Sales Data – Exploratory Data Analysis (EDA) Using SQL
 
 ## 📌 Project Overview  
-This project performs a comprehensive exploratory data analysis (EDA) on a retail sales dataset using MS SQL Server. The objective is to analyze customer behavior, sales patterns, and product performance to uncover trends and support business decision-making.
+This project focuses on performing Exploratory Data Analysis (EDA) on a retail sales dataset using MS SQL Server. The dataset contains customer demographics, transaction details, product categories, and order dates. The goal is to explore patterns and generate business-relevant insights such as customer spending behavior, seasonal trends, and category performance.
 
 ## 🛠 Tools Used  
-- **MS SQL Server**: For all data cleaning, transformations, and analysis  
-- **Power BI** *(optional if you used it)*: For visual dashboard (not covered in SQL)
+- **MS SQL Server**: For data cleaning, transformation, and exploratory analysis
 
-## 🎯 Key Analysis Tasks  
-- Data quality check (nulls, invalid entries)  
-- Top customer analysis by total spending  
-- Product performance by category  
-- Age & gender-based spending patterns  
-- Monthly and quarterly sales trends  
-- Descriptive statistics (mean, median, mode, SD)  
-- Rolling average of sales  
-- Sales growth rate month over month  
+## 🎯 Key Analysis Performed  
+- Checked for null or missing values in important columns  
+- Identified top 10 customers based on total sales  
+- Aggregated sales by product category  
+- Found highest and lowest MRP in each category  
+- Grouped customers by age ranges and gender to analyze spending trends  
+- Analyzed order dates to determine first and last purchase by category  
+- Calculated monthly and quarterly sales trends  
+- Computed 7-day rolling average of sales  
+- Generated descriptive statistics (mean, median, mode, standard deviation) on sales
 
-## 🔍 Key Business Insights  
-- **Product Categories**: [Insert top 2-3 here if known] generated the most revenue  
-- **Age Groups 30–45** had the highest spending, with male customers showing slightly higher average order values  
-- **Q4 consistently showed higher sales**, suggesting seasonal trends  
-- Descriptive statistics help in understanding variability and central tendencies in sales
+## 📊 Key Insights  
+- **Technology and Fashion** categories showed the highest revenue  
+- **Age group 30–45** had the most purchase activity  
+- Sales increased during **Q3 and Q4**, indicating seasonal growth  
+- Most spending came from **male customers**, but females had more purchases in some segments  
+- Descriptive statistics revealed wide variation in transaction values
 
 ## 📁 Files Included  
-- `retail_sales_eda.sql`: Full SQL script containing queries and logic  
-- `README.md`: This file  
+- `retail_sales_eda.sql`: SQL script containing all queries used for cleaning and analysis  
+- `README.md`: This project documentation  
 
-## 📈 Future Enhancements  
-- Visualize SQL results using Power BI  
-- Add customer segmentation (RFM)  
-- Automate script with SQL Server Agent for monthly analysis
+## 🔍 Next Steps  
+- Visualize trends and category performance using Power BI or Excel charts  
+- Segment customers based on frequency and recency  
+- Explore time-series forecasting or trend smoothing (in future projects)
 
