@@ -5,6 +5,7 @@ This project focuses on performing Exploratory Data Analysis (EDA) on a retail s
 
 ## 🛠 Tools Used  
 - **MS SQL Server**: For data cleaning, transformation, and exploratory analysis
+- **POWER BI**: Visualization
 
 ## 🎯 Key Analysis Performed  
 - Checked for null or missing values in important columns  
